@@ -11,6 +11,10 @@
     "../../../stubs/"
   ],
   "exclude": [
-    ".*/integration_test/.*"
+    ".*/integration_test/.*",
+    ".*packaging.*",
+    ".*pip.*",
+    ".*libcst.*",
+    ".*email.*"
   ]
 }
